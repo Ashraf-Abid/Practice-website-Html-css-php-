@@ -110,30 +110,50 @@
 	</div>
 	<div class="container-fluid">
 		<div class=row>
-			<div class="col-lg-4 col-md-4 col-12">
-				<img src="Image/5.jpg" class="img-fluid pb-3">
+			<div class="col-lg-4 col-md-4 col-12 ">
+				<img src="Image/Dp1.PNG" class="img-fluid pb-3 ">
 				
 			</div>
 			<div class="col-lg-4 col-md-4 col-12">
-				<img src="Image/5.jpg" class="img-fluid pb-3">
+				<img src="Image/dp3.PNG" class="img-fluid pb-3">
 				
 			</div>
+			
 			<div class="col-lg-4 col-md-4 col-12">
-				<img src="Image/5.jpg" class="img-fluid pb-3">
-				
-			</div>
-			<div class="col-lg-4 col-md-4 col-12">
-				<img src="Image/5.jpg" class="img-fluid pb-3">
-				
-			</div>
-			<div class="col-lg-4 col-md-4 col-12">
-				<img src="Image/5.jpg" class="img-fluid pb-3">
+				<img src="Image/dp6.PNG" class="img-fluid pb-3">
 				
 			</div>
 		</div>
 		
 	</div>
 </section>
+<section class="my-5">
+	<div class="w-50 m-auto">
+		<form action="userinfo.php" method="post">
+			<div class="form-group">
+				<label>Username</label>
+				<input type="text" name="user" autocomplete="off" class="form-control">
+			</div>
+			<div class="form-group">
+				<label>Email ID</label>
+				<input type="text" name="email" autocomplete="off" class="form-control">
+			</div>
+			<div class="form-group">
+				<label>Mobile</label>
+				<input type="text" name="mobile" autocomplete="off" class="form-control">
+			</div>
+			<div class="form-group">
+				<label>Comment</label>
+				<textarea class="form-control"></textarea>
+			</div>
+		</form>
+		<input class="btn btn-success" type="submit" value="Submit">
+	</div>
+	
+</section>
+<footer>
+	<h6 class="p-3 bg-dark text-white">I am Ash</h6>
+</footer>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>

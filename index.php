@@ -144,12 +144,13 @@
 			</div>
 			<div class="form-group">
 				<label>Comment</label>
-				<textarea class="form-control"></textarea>
+				<textarea class="form-control" name="comments"></textarea>
 			</div>
+				<button type="submit" class="btn-success">Submit</button>
+
 		</form>
-		<input class="btn btn-success" type="submit" value="Submit">
+		
 	</div>
-	
 </section>
 <footer>
 	<h6 class="p-3 bg-dark text-white">I am Ash</h6>
